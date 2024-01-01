@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Noto+Serif+Display&family=Noto+Serif:wght@300&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@font-face {
+  font-family: "Rocher";
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-color: rgb(53, 53, 52, 0.9);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: 5em;
+  color: rgb(206, 141, 56);
+  font-family: "Rocher";
+  margin: 0;
+}
+h2 {
+  font-weight: 700;
+  color: rgb(255, 250, 244);
+
+  font-size: 3em;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  perspective: 2000px;
+  background-image: url("../public/img/wood.png");
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 2px;
+}
+
+.loose {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-size: 2em;
+  padding: 100px;
+  border-radius: 20px;
+  transform: translate(0%, 0%);
+}
+.loose h1 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.loose h2 {
+  margin: 10px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #c23866;
+  color: #fff;
+}
+
+body {
+  background-image: url("/public/img/jungle.jpg");
+  background-position: center;
+  background-size: cover;
+}
