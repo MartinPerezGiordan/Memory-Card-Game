@@ -1,4 +1,5 @@
 import "./Card.css";
+
 export default function Card({ card, handleCardClick }) {
   const handleClick = () => {
     handleCardClick(card);

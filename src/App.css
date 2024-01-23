@@ -15,9 +15,16 @@ body {
   background-color: antiquewhite;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board {
   max-width: 1200px;
   height: 100vh;
   display: flex;
@@ -31,17 +38,39 @@ body {
   padding-right: 50px;
 }
 
+.score-board {
+  background-color: rgb(53, 53, 52, 0.9);
+  background-position: center;
+  background-size: center;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 2px;
+}
+
 h1 {
   font-size: 5em;
   color: rgb(206, 141, 56);
   font-family: "Rocher";
   margin: 0;
+  margin-bottom: 30px;
 }
 h2 {
   font-weight: 700;
   color: rgb(255, 250, 244);
-
   font-size: 3em;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  background-color: rgba(104, 102, 3, 0.8);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 5px 30px;
+  margin-bottom: 20px;
 }
 
 .card-grid {
@@ -59,6 +88,10 @@ h2 {
 
 .loose {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
   background-color: rgb(0, 0, 0, 0.8);
   font-size: 2em;
@@ -66,6 +99,24 @@ h2 {
   border-radius: 20px;
   transform: translate(0%, 0%);
 }
+
+.how-to {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 2em;
+  padding: 100px;
+  border-radius: 20px;
+}
+
 .loose h1 {
   margin: 0;
   padding: 0;
