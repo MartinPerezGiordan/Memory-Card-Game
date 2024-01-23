@@ -8,13 +8,16 @@ By developing this Memory Card Game, I sought to deepen my understanding of Reac
 - [About](#about)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
 The Memory Card Game is a React-based project designed to provide an enjoyable gaming experience. The goal is to pick all the cards on the board without repeating a card.
+
+![image](https://github.com/MartinPerezGiordan/Memory-Card-Game/assets/123517159/f1990ad4-fea4-4d12-ac86-b557794c61e9)
+
+![image](https://github.com/MartinPerezGiordan/Memory-Card-Game/assets/123517159/8da0dd0c-a7d3-4a57-bc75-efca723f0718)
+
+
 
 ## Features
 
@@ -27,16 +30,19 @@ The Memory Card Game is a React-based project designed to provide an enjoyable g
 
 To run the Memory Card Game locally, follow these steps:
 
+## Clone the repository
 ```bash
-# Clone the repository
 git clone git@github.com:MartinPerezGiordan/Memory-Card-Game.git
-
-# Navigate to the project directory
+```
+## Navigate to the project directory
+```bash
 cd Memory-Card-Game
-
-# Install dependencies
+```
+## Install dependencies
+```bash
 npm install
-
-# Start the development server
-npm start
+```
+## Start the development server
+```bash
+npm run dev
 ```
