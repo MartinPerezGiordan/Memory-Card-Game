@@ -5,7 +5,7 @@ By developing this Memory Card Game, I sought to deepen my understanding of Reac
 
 ## View live link
 
-[MemoryGame](https://martin-memory-card-game.netlify.app)
+[MemoryGame](https://65afe3cb2c144d0098b9394f--martin-memory-card-game.netlify.app)
 
 ## Table of Contents
 
